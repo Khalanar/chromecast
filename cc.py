@@ -26,7 +26,7 @@ if (sys.argv[1] == "vol"):
     cast.set_volume(volume)
 
 if (sys.argv[1] == "info"):
-    print(mc.status)
+    #print(mc.status)
     print(mc.status.content_id)
 
 if (sys.argv[1] == "tv3"):
